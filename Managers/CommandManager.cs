@@ -302,7 +302,7 @@ namespace MapEdit.Managers
                 Main.Instance.Common.RawSayTo(sender, "Door ^2Saved^7, Id: ^2" + model.Id);
                 sender.SetField("isDrawing", "false");
                 Main.Instance.Script.AfterDelay(1000, () => Main.Instance.Common.ToggleFly(sender));
-            }, "door / door [Size:<size>] [Heigth:<heigth>] [Health:<health>");
+            }, "door / door [Size:<size>] [Heigth:<heigth>] [Health:<health>]");
         }
         private void AddEdit(Entity sender, string[] args, string type, bool hidden = false, int paramIndex = 1)
         {
